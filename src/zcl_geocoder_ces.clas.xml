@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Multiple Geocoder</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL/>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>APIKEY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service API or Developer key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>DESERIALIZE_JSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deserialize JSON into ABAP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>GEOCODE_ONE_ADDRESS_GOOGLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Geocode one address with Google Maps Geocoding API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>GEOCODE_ONE_ADDRESS_HCPQM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Geocode one address with HCP Data Quality microservices</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>GEOSERVICE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOOGLE or MAPQUEST (for now)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>HTTP_RFC_DEST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Geocoding service destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>HTTP_SEND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Send HTTP request</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>JSON_DESERIALIZER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Use ABAP or TRID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>PARSE_GMAPS_JSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parse Google Maps response in JSON format</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GEOCODER_CES</CLSNAME>
+     <CMPNAME>SET_SAP_PRECISION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set values for geocoding accuracy</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
